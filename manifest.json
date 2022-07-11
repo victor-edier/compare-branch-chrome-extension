@@ -1,0 +1,17 @@
+{
+  "manifest_version": 3,
+  "name": "Compare a tree branch",
+  "version": "0.0.1",
+  "description": "A drop-dead-simple extension to change the github tree url to compare url",
+  "action": {
+    "default_icon": "icon.png",
+    "default_title": "Compare this tree branch"
+  },
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "icons": { "16": "icon.png",
+    "48": "icon.png",
+   "128": "icon.png" }
+}
